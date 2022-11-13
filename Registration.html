@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Signup Form Template Free Code Snippet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link ref="stylesheet" href="style.css">
+  <style>
+    .billing-form {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+  </style>
+</head>
+<body>
+
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+            <h2 class="mb-4">Checkout Now</h2>
+            <form class="billing-form bg-light float-start p-3">
+                <div class="row g-3">
+                    <h4>Billing Address</h4>
+                    <div class="col-sm-6">
+                        <label class="form-label">First name</label>
+                        <input type="text" class="form-control" placeholder="First Name" required="">
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form-label">Last name</label>
+                        <input type="text" class="form-control" placeholder="Last Name" required="">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Username</label>
+                        <input type="text" class="form-control" placeholder="Username" required="">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Email Id</label>
+                        <input type="email" class="form-control" placeholder="Email Id" required="">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Subject Name</label>
+                        <input type="text" class="form-control" placeholder="Subject Name" required="">
+                    </div>
+                    
+                    <div class="col-md-5">
+                        <label class="form-label">Country</label>
+                        <select class="form-select">
+                            <option>Choose...</option>
+                            <option>KWD</option>
+                            <option>USD</option>
+                            <option>AED</option>
+                        </select>
+                    </div>
+                   
+                    
+                </div>
+                <hr class="my-4">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="shipping-address" checked="">
+               
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-details">
+                    <label class="form-check-label" for="save-details">Save this full details for next time</label>
+                </div>
+                <div class="payment-details bg-success text-white p-3 my-3">
+                    <h4 class="mb-3">Payment</h4>
+                    <div class="my-3">
+                        <label class="form-label">Select Method</label>
+                        <select class="form-select">
+                            <option>Credit card</option>
+                            <option>Debit card</option>
+                            <option>PayPal</option>
+                        </select>
+                    </div>
+                    <div class="row gy-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Card Name</label>
+                            <input type="text" class="form-control" placeholder="Card Name" required="">
+                            <small class="text-light">Full name as displayed on card</small>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Credit Card Number</label>
+                            <input type="password" class="form-control" placeholder="Card Number" required="">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Expire Date</label>
+                            <input type="text" class="form-control" placeholder="Expire Date" required="">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">CVV Number</label>
+                            <input type="text" class="form-control" placeholder="CVV Number" required="">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="billing-details" checked="">
+                                <label class="form-check-label" for="billing-details">Save billing details for next time</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary float-end" type="submit">Continue To Checkout</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
